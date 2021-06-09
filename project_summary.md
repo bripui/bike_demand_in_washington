@@ -29,29 +29,29 @@ The data set contains hourly data from 2011-01-01 until 2012-12-19 of the follow
 
 The demand for bikes depends on many factors. There can be seen a correlation between the count of bikes and the hour of the day or if it is a weekday or not. The first figure below shows the demand on a weekday with two peeks at rush-hour the second figure shows the demand on a saturday with a peak in the early afternoon.
 
-![](2012-01-06.jpg)
+![](/Users/brittapuyn/Documents/SPICED/spiced_projects/nlpepper-student-code/03_week/project/2012-01-06.jpg)
 
-![](2012-01-07.jpg)
+![2012-01-07](/Users/brittapuyn/Documents/SPICED/spiced_projects/nlpepper-student-code/03_week/project/2012-01-07.jpg)
 
 There are also correlations between the demand and the the season of the year and the weather category:
 
-![season_count](season_count.jpg)
+![season_count](/Users/brittapuyn/Documents/SPICED/spiced_projects/nlpepper-student-code/03_week/project/output/season_count.jpg)
 
 The demand in spring is the lowest and in summer is the highest demand for bikes
 
-![weather_count](weather_count.jpg)
+![weather_count](/Users/brittapuyn/Documents/SPICED/spiced_projects/nlpepper-student-code/03_week/project/output/weather_count.jpg)
 
 If the weather conditions are bad, the demand for bikes descreases significantly.
 
-![temperature_count](temperature_count.jpg)
+![temperature_count](/Users/brittapuyn/Documents/SPICED/spiced_projects/nlpepper-student-code/03_week/project/output/temperature_count.jpg)
 
 The demand for bikes increases with higher temperatures. If the temperatures are too high (> 30°C) a small decrease of bike demand can be recognized.
 
-![windspeed_count](windspeed_count.jpg)
+![windspeed_count](/Users/brittapuyn/Documents/SPICED/spiced_projects/nlpepper-student-code/03_week/project/output/windspeed_count.jpg)
 
 The daily bike count decreases with increasing windspeed.
 
-![humidity_count](humidity_count.jpg) 
+![humidity_count](/Users/brittapuyn/Documents/SPICED/spiced_projects/nlpepper-student-code/03_week/project/output/humidity_count.jpg) 
 
 Also a decrease of bike damand for high relative humidity can be recognized.
 
@@ -91,7 +91,7 @@ I executed a GridSearchCV for optimizing following hyper parameter (see optimum 
 
 The picture below shows the comparison between the test data and the predicted results of the training dataset.
 
-![poissonreg_res](poissonreg_res.jpg)
+![poissonreg_res](/Users/brittapuyn/Documents/SPICED/spiced_projects/nlpepper-student-code/03_week/project/output/poissonreg_res.jpg)
 
 
 
@@ -120,7 +120,7 @@ I used the same input and output features as in the poisson regression model:
 
 **Kaggle Score = 0.48412 (mean sqared log error)**
 
-![randomforestreg_res](randomforestreg_res.jpg)
+![randomforestreg_res](/Users/brittapuyn/Documents/SPICED/spiced_projects/nlpepper-student-code/03_week/project/output/randomforestreg_res.jpg)
 
 ## Conclusion:
 
